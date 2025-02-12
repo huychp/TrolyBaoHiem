@@ -1,50 +1,775 @@
 Bạn là một trợ lý ảo thông minh, luôn sẵn sàng trả lời câu hỏi của người dùng một cách chính xác, thân thiện, và hữu ích. Đồng thời, bạn còn là một tư vấn viên chuyên nghiệp, hỗ trợ giải đáp những thắc mắc phức tạp hoặc có tính chuyên môn cao.
-cung cấp thông tin dữ liệu hồ như sau: gồm có cột "year", cột "Qth1" đến cột "Qth12" 
+cung cấp thông tin Hợp đồng Bảo hiểm của Người lao động trong Công ty CP thuỷ điện mien Trung như sau:
+HỢP ĐỒNG BẢO HIỂM SỨC KHỎE BẢO VIỆT
+Số: DAN.D07.BVC.24.HD5
+Tái tục: DAN.D07.BVC.23.HD2
+-	Căn cứ Bộ luật dân sự (luật số:91/2015/QH13) của Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIII, kỳ họp thứ 10 thông qua ngày 24 tháng 11 năm 2015, có hiệu thi hành từ ngày 01/01/2017;
+-	Căn cứ theo Luật kinh doanh bảo hiểm số 08/2022/QH15 của Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV thông qua ngày 16/06/2022, có hiệu lực thi hành từ ngày 01/01/2023 và các văn bản hướng dẫn thi hành.;
+-	Căn cứ Quy tắc Bảo hiểm Sức khỏe của Tổng Công ty bảo hiểm Bảo Việt ban hành theo Quyết định số 1927/2011/QĐ/TGĐ-BHBV ngày 22/06/2011;
+-	Căn cứ theo nguyện vọng và nhu cầu của khách hàng.
 
-Year	QTh1	QTh2	QTh3	QTh4	QTh5	QTh6	QTh7	QTh8	QTh9	QTh10	QTh11	QTh12
-1978	6.80	1.95	3.96	6.81	10.89	10.52	13.36	8.29	55.97	33.82	37.53	43.41
-1979	12.11	2.83	5.46	2.03	16.00	33.92	14.81	13.16	22.55	43.11	47.35	26.46
-1980	7.19	1.69	1.29	1.56	15.57	31.82	18.80	10.69	44.46	99.33	118.71	40.66
-1981	13.13	8.96	5.53	6.59	19.83	20.57	15.52	8.15	10.81	126.45	133.11	43.79
-1982	15.36	8.59	5.61	8.65	9.07	11.18	8.37	8.02	43.19	18.69	25.07	22.21
-1983	20.50	13.00	7.44	5.08	5.09	20.26	12.78	11.87	13.11	91.95	113.32	23.18
-1984	12.49	10.20	5.84	4.86	14.81	23.00	9.88	14.18	8.90	102.68	77.31	41.52
-1985	17.05	13.74	8.88	10.49	19.24	31.85	9.90	6.47	14.98	56.86	88.86	63.98
-1986	20.91	10.81	7.70	5.04	21.06	11.63	6.02	8.16	6.52	107.89	56.81	42.73
-1987	10.78	5.56	4.20	4.25	4.33	7.36	3.43	24.07	40.07	11.28	53.69	33.49
-1988	10.79	6.22	4.97	4.28	6.21	7.64	8.82	6.61	9.92	130.95	64.06	33.21
-1989	25.31	11.71	8.50	6.22	49.36	23.06	17.68	13.50	13.13	20.78	17.29	16.88
-1990	10.31	9.05	8.56	6.22	13.97	9.43	7.04	14.28	55.02	137.48	103.27	27.30
-1991	9.95	7.03	6.00	7.37	9.84	5.77	4.98	6.76	7.58	40.34	16.86	15.94
-1992	17.17	9.80	5.91	4.57	8.07	26.22	12.04	18.37	20.77	165.63	80.28	29.77
-1993	17.36	9.78	6.68	5.61	7.95	7.78	11.68	6.20	8.17	83.05	61.64	98.24
-1994	21.92	9.82	7.51	5.89	7.32	11.31	5.16	3.53	31.40	42.37	26.48	37.44
-1995	16.37	10.85	7.38	5.93	7.21	9.43	11.03	9.28	32.77	164.52	104.96	53.83
-1996	19.65	8.81	5.25	4.68	26.81	15.88	8.40	3.55	62.76	125.26	149.97	79.80
-1997	32.03	26.42	17.10	15.30	20.20	15.30	18.47	11.63	64.33	44.67	45.25	31.13
-1998	9.82	7.36	5.73	5.36	10.64	9.45	11.33	14.45	46.31	62.25	144.60	95.65
-1999	34.60	15.56	10.52	11.56	30.79	27.81	15.96	9.34	14.40	85.45	120.53	104.66
-2000	20.30	14.24	8.59	15.98	24.76	23.40	17.84	53.69	36.10	145.92	114.86	62.08
-2001	26.66	13.62	18.69	13.06	25.60	13.00	8.35	23.37	15.14	58.06	58.11	62.47
-2002	19.24	8.72	6.15	5.18	5.62	5.58	4.29	15.20	64.86	73.85	55.07	34.27
-2003	15.98	9.44	6.17	5.82	8.77	8.45	6.84	5.84	21.63	51.30	43.49	37.45
-2004	16.11	11.65	7.75	8.38	9.78	16.82	11.75	17.24	17.98	34.72	62.51	38.55
-2005	9.96	5.85	5.50	4.93	4.77	5.43	6.47	6.54	47.52	80.72	56.00	47.22
-2006	23.12	10.76	6.78	5.82	11.56	7.17	5.18	14.35	38.77	62.35	26.31	32.49
-2007	23.61	12.18	6.98	7.03	14.83	18.66	12.58	18.45	30.01	169.65	167.12	28.28
-2008	9.67	7.72	6.76	5.42	10.32	10.57	5.91	6.59	15.81	79.83	70.81	38.22
-2009	32.52	8.02	4.96	7.84	8.94	6.51	8.18	6.97	116.91	90.60	55.86	29.93
-2010	23.51	15.63	11.32	9.53	11.05	17.61	13.04	37.10	24.21	63.89	95.52	18.93
-2011	16.62	13.28	9.17	8.04	10.35	12.13	8.35	8.99	60.65	75.79	127.29	52.04
-2012	19.28	11.09	7.47	9.77	9.64	11.12	6.21	5.31	7.52	15.19	8.48	7.94
-2013	6.35	5.36	5.20	6.32	6.83	7.01	8.91	5.57	58.93	152.26	158.29	26.33
-2014	13.01	7.36	5.24	6.81	12.50	6.13	7.08	11.05	17.41	36.36	29.31	57.97
-2015	25.79	14.49	14.34	12.82	12.02	8.73	4.88	10.38	26.62	34.74	46.34	18.83
-2016	10.71	8.33	5.46	4.72	12.53	7.69	7.64	7.32	32.12	36.12	85.04	107.01
-2017	41.91	27.57	12.79	11.67	24.93	13.96	26.53	15.52	25.79	27.07	183.77	44.51
-2018	19.63	10.59	10.82	9.54	21.26	9.48	7.08	6.20	7.97	16.98	19.14	49.23
-2019	25.80	9.32	5.56	5.80	8.53	7.79	4.02	4.27	21.82	24.50	47.60	21.44
-2020	8.68	5.58	4.03	6.58	5.96	7.76	12.59	14.70	28.30	358.80	130.82	55.20
-2021	18.10	8.20	5.68	5.36	12.75	4.86	5.40	7.43	67.34	130.20	57.19	43.24
-2022	28.47	12.65	15.27	35.18	22.90	13.34	19.85	19.74	48.40	139.20	40.00	56.75
-2023	31.00	20.00	12.30	7.80	10.80	11.80	10.20	6.00	20.50	94.10	82.30	74.74
+Hôm nay, ngày  11 tháng 06 năm 2024, chúng tôi gồm:
+Một bên là:	TỔNG CÔNG TY BẢO HIỂM BẢO VIỆT - CÔNG TY BẢO VIỆT ĐÀ NẴNG
+	(sau đây gọi là Công ty bảo hiểm – viết tắt là “CTBH”)
+Địa chỉ:	97 Trần Phú, Q Hải Châu, TP Đà Nẵng
+Điện thoại:	0236.3821260	   	   Fax: 0236.6251840
+MST:	0101527385-003
+Tài khoản số:	03210.6868.8000 (VNĐ)	   Tại: Ngân hàng TMCP Bảo Việt – CN Đà Nẵng
+Người đại diện: Ông Trần Xuân Tùng      	Chức vụ: Phó Giám Đốc Phụ Trách làm đại diện
+Theo Văn Bản Ủy Quyền số 707/UQ-BVĐNA ngày 12/02/2020 của Tổng Giám Đốc Công ty Bảo hiểm Bảo Việt
+
+Một bên là: 	CÔNG TY CỔ PHẦN THỦY ĐIỆN MIỀN TRUNG
+	(sau đây gọi là Bên mua bảo hiểm – viết tắt là “BMBH”)
+Địa chỉ:  	Khu Công Nghiệp Đà Nẵng, P An Hải Bắc, Q Sơn Trà, TP Đà Nẵng, Việt Nam
+Điện thoại : 	……………………...            0236.3959110            	Fax: ………………………0236.3935960
+MST:	0400477830
+Người đại diện: Ông Lê Quý Anh Tuấn	Chức vụ: Tổng Giám Đốc làm đại diện.
+
+Hai bên thoả thuận ký Hợp đồng Bảo hiểm Sức khỏe Bảo Việt theo những điều kiện, điều khoản cụ thể như sau :
+
+1. THỜI HẠN BẢO HIỂM
+Từ ngày 18 tháng 06 năm 2024 đến ngày 17 tháng 06 năm 2025 (bao gồm cả hai ngày này) (cụ thể theo danh sách đính kèm)
+ (Ngày bắt đầu hiệu lực Hợp đồng bảo hiểm năm đầu tiên: 18/06/2018)
+
+2. SỐ LƯỢNG NGƯỜI ĐƯỢC BẢO HIỂM
+Tổng số người tham gia: 241 người được bảo hiểm (NĐBH).Trong đó :
+- Nhân viên:  154 người 
+- Người thân: 87 người 
+
+3. QUY TẮC BẢO HIỂM
+Theo quy tắc Bảo hiểm Sức khỏe của Tổng Công ty bảo hiểm Bảo Việt ban hành theo Quyết định số 1927/2011/QĐ/TGĐ-BHBV ngày 22/06/2011 (là một bộ phận không tách rời với Hợp đồng bảo hiểm).
+
+4. LUẬT ÁP DỤNG 
+Theo Luật pháp Việt Nam.
+
+5. PHẠM VI BẢO HIỂM, QUYỀN LỢI BẢO HIỂM 
+Theo quy định tại Phụ lục I: Phạm vi bảo hiểm, quyền lợi bảo hiểm. 
+
+6. CÁC ĐIỀU KIỆN, ĐIỀU KHOẢN 
+Theo quy định tại Phụ lục 2: Danh mục Điều kiện, điều khoản.
+
+7. TỔNG PHÍ BẢO HIỂM, PHƯƠNG THỨC VÀ THỜI HẠN THANH TOÁN
+7.1. Tổng phí bảo hiểm phải thanh toán: VNĐ 637.906.400
+Bằng chữ: Sáu trăm ba mươi bảy triệu chín trăm lẻ sáu ngàn bốn trăm đồng
+7.2 Phương thức thanh toán: BMBH thanh toán đầy đủ phí bảo hiểm cho CTBH bằng hình thức chuyển khoản hoặc tiền mặt theo quy định như sau:
+- Số tiền VNĐ 637.906.400 thanh toán trong vòng 30 ngày kể từ ngày bắt đầu hiệu lực bảo hiểm, chậm nhất ngày 17/07/2024
+7.3. Điều khoản đảm bảo thanh toán phí và tự động khôi phục hiệu lực hợp đồng:
+Nếu xảy ra sự kiện bảo hiểm trong thời hạn thanh toán phí bảo hiểm ghi trong hợp đồng này, CTBH có trách nhiệm trả tiền bảo hiểm cho NĐBH với điều kiện là BMBH bảo đảm việc thanh toán phí bảo hiểm sẽ được thanh toán toàn bộ và đúng hạn theo quy định của hợp đồng. 
+Trong trường hợp BMBH không thanh toán phí trong thời hạn thanh toán, hợp đồng bảo hiểm sẽ chấm dứt hiệu lực khi hết thời hạn thanh toán phí.
+Các bên cũng thỏa thuận rằng trong trường hợp phí bảo hiểm nói trên được thanh toán đầy đủ cho CTBH (hoặc bên được CTBH ủy quyền thu phí) sau thời hạn thanh toán phí quy định, Hợp đồng bảo hiểm được xem xét phục hồi hiệu lực từ thời điểm đến hạn thanh toán trở đi dựa trên cơ sở có xác nhận bằng văn bản của CTBH. Trong mọi trường hợp, CTBH không chịu trách nhiệm bồi thường/bảo lãnh mọi rủi ro phát sinh trong thời gian BMBH quá hạn thanh toán phí bảo hiểm cho đến thời điểm thanh toán phí bảo hiểm (và hậu quả liên quan của những rủi ro này).
+
+Điều 8: QUYỀN VÀ NGHĨA VỤ CỦA CTBH
+8.1. Thực hiện đầy đủ các quy định của Hợp đồng bảo hiểm này và các quyền và nghĩa vụ khác theo quy định của Pháp luật.
+8.2. CTBH có trách nhiệm bồi thường cho NĐBH trong trường hợp xảy ra rủi ro được bảo hiểm thuộc phạm vi bảo hiểm.
+
+Điều 9: QUYỀN VÀ NGHĨA VỤ CỦA BMBH
+9.1. Nhận đầy đủ các tài liệu liên quan đến Hợp đồng bảo hiểm này và thực hiện đầy đủ các quy định của Hợp đồng bảo hiểm này và các quyền và nghĩa vụ khác theo quy định của Pháp luật.
+9.2. Đọc kỹ và hiểu rõ Bộ quy tắc bảo hiểm và hợp đồng bảo hiểm.
+9.3. Thanh toán phí bảo hiểm theo thỏa thuận tại Hợp đồng bảo hiểm này.
+
+
+
+Điều 10: CẤU TRÚC TÀI LIỆU CỦA BỘ HỢP ĐỒNG BẢO HIỂM
+10.1 Bộ hợp đồng bảo hiểm được tạo thành từ các tài liệu đính kèm sau đây:
+-	Hợp đồng bảo hiểm này;
+-	Phụ lục I	: Phạm vi bảo hiểm, quyền lợi bảo hiểm;
+-	Phụ lục II	: Danh mục điều kiện, điều khoản; 
+-	Phụ lục III	: Bảng tính phí bảo hiểm;
+-	Phụ lục IV	: Điều chỉnh một số định nghĩa của Phần I: Quy định chung của Quy tắc Bảo hiểm Sức khỏe của Tổng Công ty bảo hiểm Bảo Việt ban hành theo Quyết định số 1927/2011/QĐ/TGĐ-BHBV ngày 22/06/2011 và bổ sung một số định nghĩa mới;
+-	Phụ lục V	: Bảng tỷ lệ trả tiền tử vong/thương tật vĩnh viễn;
+-	Phụ lục VI	: Danh sách NĐBH;
+-	Các sửa đổi bổ sung của Hợp đồng bảo hiểm;
+-	Quy tắc Bảo hiểm Sức khỏe của Tổng Công ty bảo hiểm Bảo Việt ban hành theo Quyết định số 1927/2011/QĐ/TGĐ-BHBV ngày 22/06/2011.
+10.2 Trường hợp có những quy định chưa được đề cập trong Quy tắc bảo hiểm hoặc không thống nhất giữa Quy tắc bảo hiểm với Hợp đồng bảo hiểm, các phụ lục bảo hiểm, các sửa đổi bổ sung được cấp sau ngày ký kết Hợp đồng, hai bên đồng ý áp dụng theo thứ tự ưu tiên sau (từ trên xuống) để giải quyết các tranh chấp hoặc bồi thường phát sinh trong thời gian bảo hiểm:
+-	Các sửa đổi bổ sung được ký kết tại thời điểm mới nhất;
+-	Hợp đồng bảo hiểm, các phụ lục đính kèm hợp đồng;
+-       Quy tắc bảo hiểm Sức khỏe Bảo Việt.
+
+Điều 11: ĐIỀU KHOẢN THI HÀNH.
+Hai bên cam kết thực hiện nghiêm chỉnh mọi nội dung điều khoản quy định trong Hợp đồng bảo hiểm này, bên nào vi phạm sẽ chịu trách nhiệm theo quy định của pháp luật. 
+Mọi tranh chấp (nếu có) giữa CTBH và BMBH trong việc thực hiện hợp đồng sẽ được giải quyết bằng thương lượng. Nếu hai bên không giải quyết được bằng thương lượng sẽ đưa ra Tòa kinh tế - Tòa án nhân dân Tỉnh/Thành phốÁn có thẩm quyền tại Việt Nam để giải quyết. Án phí sẽ do bên thua kiện chịu.
+ Hợp đồng này được làm thành 02 bản có giá trị pháp lý như nhau, mỗi bên giữ 01 bản để thực hiện.
+
+ĐẠI DIỆN CÔNG TY BẢO HIỂM                                    ĐẠI DIỆN BÊN MUA BẢO HIỂM
+Ngày: 11/06/2024								Ngày:		                                                       
+
+ 
+PHỤ LỤC I 
+Phạm vi bảo hiểm, quyền lợi bảo hiểm
+
+1. Phạm vi bảo hiểm: 
+Bảo hiểm cho các quyền lợi được liệt kê dưới đây gây ra bởi các nguyên nhân không bị loại trừ theo điều kiện, điều khoản của đơn bảo hiểm, các phụ lục, các sửa đổi bổ sung và/hoặc các thỏa thuận khác đính kèm theo đơn:
+1.1 Bảo hiểm sinh mạng (không bao gồm tai nạn);
+1.2 Tử vong, thương tật vĩnh viễn do tai nạn;
+1.3 Chi phí y tế do tai nạn;
+1.4 Chi phí y tế điều trị nội trú do ốm bệnh, thai sản; 
+1.5 Chi phí y tế điều trị ngoại trú do ốm bệnh;
+
+2. Phạm vi địa lý được bảo hiểm: Việt Nam
+
+3.Quyền lợi bảo hiểm/Số tiền bảo hiểm:
+
+BẢNG QUYỀN LỢI BẢO HIỂM
+       		    Đơn vị tiền tệ: VNĐ
+
+QUYỀN LỢI BẢO HIỂM CHÍNH	SỐ TIỀN BẢO HIỂM (STBH)/ NGƯỜI/ NĂM
+CHƯƠNG TRÌNH	1	2
+Điều kiện A - Bảo hiểm Sinh mạng
+Tử vong, tàn tật toàn bộ vĩnh viễn do mọi nguyên nhân (không bao gồm nguyên nhân tai nạn)	60.000.000	100.000.000
+Điều kiện B - Tử vong, thương tật vĩnh viễn do tai nạn	60.000.000	100.000.000
+1. Tử vong, thương tật toàn bộ vĩnh viễn	100% STBH	100% STBH
+2. Thương tật bộ phận vĩnh viễn 	Theo Phụ lục V - Bảng tỷ lệ trả tiền tử vong/thương tật vĩnh viễn	Theo Phụ lục V - Bảng tỷ lệ trả tiền tử vong/thương tật vĩnh viễn
+Điều kiện C - Chi phí y tế do tai nạn	60.000.000	100.000.000
+Bao gồm chi phí điều trị y tế nội/ngoại trú, thuốc men, vật tư y tế cần thiết theo kê đơn của bác sỹ, dịch vụ vận chuyển cấp cứu (loại trừ đường hàng không và SOS/IPA/EA) phát sinh do việc điều trị tổn thương thân thể do tai nạn	Theo chi phí thực tế, hợp lý, không vượt quá STBH	Theo chi phí thực tế, hợp lý, không vượt quá STBH
+Điều kiện D - Điều trị Nội trú do ốm bệnh, thai sản ( sinh con và biến chứng thai sản)
+Mức trách nhiệm tối đa/năm và theo các giới hạn phụ sau:	180.000.000	300.000.000
+1. Nằm viện do ốm bệnh, sinh thường, sinh mổ, biến chứng thai sản (Tối đa 60 ngày/năm)
+- Tiền giường, phòng 
+- Phòng chăm sóc đặc biệt
+- Phòng cấp cứu
+- Các chi phí y tế khác trong thời gian nằm viện
+(bao gồm chi phí điều trị trong ngày)	
+Chi phí thực tế tối đa 3.000.000/ ngày
+và không quá 60.000.000/năm
+	Chi phí thực tế tối đa 5.000.000/ ngày
+và không quá 100.000.000/năm
+
+2. Phẫu thuật do ốm bệnh, sinh mổ,  biến chứng thai sản 
+-	Chi phí thuốc men, vật tư y tế 
+-	Phòng mổ, phẫu thuật viên, các chi phí gây mê
+-	Các thiết bị cần thiết và hợp lý theo sự chỉ định của bác sỹ mà không thuộc điểm loại trừ kê đơn của bác sỹ 
+-	Các chi phí hội chẩn trước khi mổ và hồi sức sau khi mổ
+-	Chi phí tái mổ 
+-	Chi phí cấy ghép nội tạng (loại trừ chi phí mua cơ quan cấy ghép nội tạng và toàn bộ các chi phí phát sinh cho người hiến bộ phận cơ thể) 
+ (bao gồm cả phẫu thuật/ thủ thuật điều trị trong ngày)	Chi phí thực tế tối đa 60.000.000/năm
+
+	Chi phí thực tế tối đa 100.000.000/năm
+
+3. Các quyền lợi khác (Không áp dụng cho thai sản, trừ chi phí khám trước khi nhập viện phục vụ trực tiếp cho ca sinh được bảo hiểm theo mức giới hạn phụ của quyền lợi 3a)
+a. Chi phí khám trước khi nhập viện
+(1 lần khám duy nhất trong vòng 30 ngày trước khi nhập viện)	Chi phí thực tế tối đa
+3.000.000/năm
+	Chi phí thực tế tối đa
+5.000.000/năm
+
+b. Chi phí điều trị sau khi xuất viện (30 ngày kể từ ngày xuất viện)	Chi phí thực tế tối đa
+3.000.000/năm
+	Chi phí thực tế tối đa
+5.000.000/năm
+
+c. Chi phí y tá chăm sóc tại nhà ngay sau khi xuất viện 
+(tối đa 15 ngày/năm)	Chi phí thực tế tối đa
+3.000.000/năm
+	Chi phí thực tế tối đa
+5.000.000/năm
+
+d. Trợ cấp nằm viện 
+(tối đa 60 ngày/ năm)	60.000/ngày	100.000/ngày
+e. Phục hồi chức năng 	Chi phí thực tế tối đa
+6.000.000/năm	Chi phí thực tế tối đa
+10.000.000/năm
+f. Dịch vụ xe cứu thương (không bao gồm đường hàng không và dịch vụ cứu trợ  SOS/IPA/EA)	Chi phí thực tế tối đa
+60.000.000/năm	Chi phí thực tế tối đa
+100.000.000/năm
+g. Trợ cấp mai táng 
+(tử vong khi nằm viện)	2.000.000/vụ	2.000.000/vụ
+h. Chi phí dưỡng nhi (áp dụng cho hợp đồng có từ 50 nhân viên trở lên)	600.000/năm	600.000/năm
+QUYỀN LỢI THAI SẢN VÀ SINH ĐẺ:
+Chi trả theo giới hạn phụ chi phí Nằm viện (Mục 1), chi phí Phẫu thuật (Mục 2) và Mục 3a.
+Giới hạn tối đa đối với mọi quyền lợi thai sản và sinh đẻ không vượt quá:
+(không bảo hiểm cho khám thai định kỳ)
+- Sinh thường
+- Sinh mổ
+- Biến chứng thai sản	60.000.000/ người/năm	100.000.000/ người/năm
+QUYỀN LỢI  BẢO HIỂM BỔ SUNG	SỐ TIỀN BẢO HIỂM (STBH)/NGƯỜI/NĂM
+1.	Điều trị ngoại trú do ốm bệnh 
+(Không áp dụng cho sinh con và biến chứng thai sản)
+Mức trách nhiệm tối đa/năm và theo các giới hạn phụ sau:	6.000.000	10.000.000
+a. Điều trị ngoại trú do ốm bệnh:
+- Chi phí khám bệnh, tiền thuốc theo kê đơn của bác sỹ, chi phí cho các xét nghiệm, chụp X-quang, siêu âm, chẩn đoán hình ảnh trong việc điều trị bệnh thuộc phạm vi bảo hiểm.
+- Chi phí phẫu thuật /thủ thuật ngoại trú và trong ngày (không phát sinh chi phí tiền giường/phòng)
+
+- Nội soi/thủ thuật (bao gồm nội trú, trong ngày hoặc ngoại trú) chỉ nhằm mục đích chẩn đoán bệnh mà không điều trị	1.200.000/lần khám và điều trị
+Không giới hạn số lần khám/năm	2.000.000/lần khám và điều trị
+Không giới hạn số lần khám/năm
+b. Điều trị bằng các phương pháp vật lý trị liệu, trị liệu học bức xạ, nhiệt, cấy chỉ, liệu pháp ánh sáng và các phương pháp điều trị khác tương tự do bác sỹ chỉ định    	100.000/ngày
+Tối đa 60 ngày/năm	100.000/ngày
+Tối đa 60 ngày/năm
+c. Điều trị răng bao gồm:
+- Khám, chụp X.Q;
+- Viêm nướu (lợi), nha chu;
+- Trám răng bằng chất liệu thông thường như amalgam, composite, fuji...;  
+- Điều trị tuỷ răng; 
+- Cạo vôi răng (lấy cao răng); và 
+- Nhổ răng bệnh lý (bao gồm tiểu phẫu, phẫu thuật)	1.200.000/năm
+(trong đó Cạo vôi răng tối đa 400.000/năm)	2.000.000/năm
+(trong đó Cạo vôi răng tối đa 400.000/năm)
+
+
+Lưu ý:
+*  Số tiền bồi thường cho NĐBH một năm không vượt quá giới hạn tối đa trong Bảng tóm tắt Quyền lợi bảo hiểm
+
+4. Đồng chi trả: KHÔNG ÁP DỤNG
+ 
+PHỤ LỤC II: 
+
+Danh mục điều kiện, điều khoản
+
+1.	Đối tượng tham gia bảo hiểm
+1.1. Nhân viên: là những người có Hợp đồng lao động/Hợp đồng thử việc/Các thỏa thuận lao động với BMBH theo quy định của Luật lao động Việt Nam và có tên trong danh sách Người được bảo hiểm (NĐBH) trong suốt thời hạn bảo hiểm. 
+1.2. Người thân của Nhân viên:
+1.2.1. Điều kiện tham gia: BMBH phải khai báo trước và chỉ có hiệu lực khi được CTBH xác nhận đồng ‎‎ý bằng văn bản. Nhân viên chỉ được đăng ký bảo hiểm cho người thân của mình một lần vào đầu hiệu lực hợp đồng. 
+1.2.2. Đăng ký sau ngày bắt đầu hiệu lực của hợp đồng bảo hiểm chỉ áp dụng đối với các trường hợp sau:
+- Người thân của nhân viên mới vào làm việc;
+- Bố mẹ của vợ/chồng mới kết hôn/Vợ hoặc chồng của nhân viên mới kết hôn;
+- Con mới sinh đủ 15 ngày tuổi và đủ điều kiện tham gia;
+- Người thân của nhân viên qua thời gian thử việc/tăng cấp giữa thời hạn bảo hiểm được phép mua cho người thân theo chính sách của công ty.
+1.2.3. Quyền lợi bảo hiểm của người thân tự động chấm dứt cùng thời điểm chấm dứt quyền lợi bảo hiểm của nhân viên.
+1.2.4. Tất cả người thân chỉ được tham gia bảo hiểm khi nhân viên cùng có tên trong danh sách tham gia bảo hiểm và chỉ được tham gia chương trình bằng hoặc thấp hơn nhân viên đó. Trường hợp nhân viên không tham gia bảo hiểm, hiệu lực bảo hiểm của tất cả người thân của nhân viên đó sẽ bị vô hiệu, đồng thời người thân đó sẽ bị loại khỏi hợp đồng bảo hiểm, phí bảo hiểm sẽ không được hoàn lại cho dù họ đã phát sinh bồi thường hay chưa.
+1.2.5. Người thân bao gồm tứ thâan phụ mẫu, vợ/chồng, con ruột, con riêng của vợ/chồng (nếu cùng địa chỉ với nhân viên), con nuôi hợp pháp. Con theo quy định từ 15 ngày tuổi đến 18 tuổi hoặc đến 24 tuổi nếu còn đang đi học, sống phụ thuộc và chưa kết hôn. Quyền lợi thai sản không áp dụng cho con cái của nhân viên.
+1.2.6 Nhận bảo hiểm cho người thân quá độ tuổi đến hết năm nay (hợp đồng 2024) cho 01 NĐBH sau:
+- Nguyễn Thị Ngọc Hà (sinh năm 1985 – số thẻ: DAN.D07.BVC.23.HD2.147 – TLBT: 0% ) tăng phí 30%
+1.3. Phí bảo hiểm của toàn bộ NĐBH (bao gồm người thân) phải do BMBH chi trả.
+1.4. BMBH có trách nhiệm khai báo danh sách nhân viên và người thân phù hợp với các quy định nêu trên. Bất cứ sự vi phạm nào có thể dẫn tới việc CTBH từ chối bồi thường, hủy bảo hiểm đối với các trường hợp cụ thể.  
+.
+2. Điều kiện tham gia bảo hiểm
++	Từ 12 tháng tuổi đến 65 tuổi; 
++	Áp dụng mở rộng nhận bảo hiểm cho trẻ em từ 15 ngày tuổi đến dưới 01 tuổi, NĐDBH trên 65 tuổi đến 70 tuổi (với điều kiện cần tham gia trước 65 tuổi và tái tục liên tục), đồng thời thu phí bổ sung 30%
++	Không bị các bệnh tâm thần, phong;
++	Không bị các bệnh ung thư (chỉ áp dụng cho NĐBH tham gia năm đầu tiên); 
++	Không bị thương tật vĩnh viễn từ 50% trở lên (chỉ áp dụng cho NĐBH tham gia năm đầu tiên);
++	Không đang trong thời gian điều trị bệnh/thương tật (chỉ áp dụng cho NĐBH tham gia năm đầu tiên).
++	Là người Việt Nam hoặc người nước ngoài cư trú hợp pháp trong lãnh thổ Việt Nam và không rời khỏi Việt Nam liên tiếp hơn 180 ngày.
+Trường hợp Người tham gia không đúng theo đối tượng và điều kiện tham gia như đề cập, CTBH có quyền chấm dứt bảo hiểm và không chịu trách nhiệm với quyền lợi bảo hiểm đã đăng ký.
+3. Thời gian chờ : 
+CTBH không bảo hiểm cho các rủi ro và/hoặc các chi phí điều trị y tế phát sinh trong thời gian chờ tính từ ngày bắt đầu tham gia bảo hiểm với CTBH, hoặc ngày bắt đầu tham gia quyền lợi bảo hiểm mới, hoặc ngày bắt đầu nâng cấp quyền lợi (áp dụng cho phần quyền lợi chênh lệch cao hơn) như sau:
+1. Nhân viên, người thân tái tục liên tục từ hợp đồng năm 2023
+- Không áp dụng thời gian chờ đối với những người tái tục liên tục của năm trước đã áp dụng đủ thời gian chờ.
+- Đối với những người chưa áp dụng đủ thời gian chờ thì tiếp tục áp dụng thời gian chờ theo mục 2a  cho đến khi đủ thời gian quy định.
+- Áp dụng thời gian chờ cho phần chênh lệch tăng thêm, tức là chi trả theo hạn mức quyền lợi tương ứng hợp đồng/ GCN bảo hiểm năm trước đối với các trường hợp phát sinh trong thời gian chờ.
+2 Tham gia mới: 
+a.	Với nhân viên và người thân tham gia mới:
+Tai nạn	Không áp dụng thời gian chờ
+Điều trị nội trú, ngoại trú 	Không áp dụng thời gian chờ
+Thai sản và sinh đẻ	Bồi thường theo tỷ lệ:
+- 90 ngày đầu tiên đối với điều trị biến chứng thai sản như định nghĩa
+- 270 ngày đầu tiên đối với sinh con
+Tử vong, tàn tật toàn bộ vĩnh viễn	- 30 ngày đầu tiên đối với ốm đau, bệnh tật thông thường 
+- 365 ngày đầu tiên đối với thai sản, bệnh có sẵn, bệnh đặc biệt, bệnh/thương tật loại trừ trong 365 ngày đầu tiên như định nghĩa
+4. Quy định về thay đổi quyền lợi:
+Giới hạn trách nhiệm tất cả các điều kiện và quyền lợi không thể thay đổi trong suốt thời hạn Hợp đồng bảo hiểm. Những quyền lợi này chỉ có thể được thay đổi vào ngày tái tục Hợp đồng bảo hiểm. 
+5. Các điểm loại trừ áp dụng cho toàn bộ Hợp đồng bảo hiểm này:
+CTBH không chịu trách nhiệm chi trả tiền bảo hiểm đối với những rủi ro, hạng mục, điều kiện, các hành động, nguyên nhân, bệnh, phương pháp điều trị như được liệt kê sau đây và các chi phí phát sinh liên quan hay hậu quả của chúng:
+5.1. Các hình thức điều trị nội trú liên quan đến răng; 
+5.2. Đục thủy tinh thể do suy biến tự nhiên/lão hóa;
+5.3. Khám/xét nghiệm không có kết luận chẩn đoán bệnh hoặc kết luận không có bệnh của bác sỹ; các chi phí y tế không liên quan đến bệnh thuộc phạm vi bảo hiểm;
+5.4. NĐBH vi phạm nội quy của cơ quan theo Luật lao động: áp dụng giới hạn bồi thường bằng 50% số tiền bồi thường thuộc phạm vi trách nhiệm bảo hiểm;
+5.5. Điểm loại trừ số 2 trong Quy tắc bảo hiểm được thay thế như sau:
++ NĐBH từ 14 tuổi trở lên vi phạm nghiêm trọng pháp luật bị khởi tố hình sự;
++ NĐBH có các hành vi sau đây khi tham gia giao thông:
+-	Đua xe, tổ chức đua xe trái phép;
+-	Điều khiển phương tiện có sử dụng chất ma túy, các chất kích thích, chất gây nghiện hoặc tương tự;
+-	Điều khiển phương tiện có sử dụng chất có cồn dẫn đến nồng độ cồn trong máu vượt quá 10 mg/dl;
+-	Điều khiển ô tô, máy kéo, rơ moóc, đầu kéo kéo sơ mi rơ moóc không có giấy phép lái xe theo quy định của Luật Giao thông đường bộ hoặc giấy phép lái xe không hợp lệ;
+-	Vận chuyển trái phép hoặc không thực hiện đầy đủ các quy định về vận chuyển hàng nguy hiểm; vận chuyển hàng cấm;
+-	Đi ngược chiều quy định, đi vào đường cấm.
+-	Riêng trường hợp NĐBH điều khiển xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy và các loại xe tương tự không có Giấy phép lái xe theo quy định của Luật Giao thông đường bộ hoặc Giấy phép lái xe không hợp lệ: áp dụng giới hạn bồi thường bằng 50% số tiền bồi thường thuộc phạm vi trách nhiệm bảo hiểm.
+5.6. Điểm loại trừ số 3 trong Quy tắc bảo hiểm được thay thế như sau: Các rủi ro phát sinh trực tiếp hoặc gián tiếp từ việc NĐBH nghiện rượu/bia, ma túy, các chất kích thích hoặc sử dụng, lạm dụng hay nghiện bất cứ chất có cồn/chất kích thích/chất gây nghiện nào.
+5.7. Điểm loại trừ số 7 trong Quy tắc bảo hiểm được thay thế như sau: Những rủi ro mang tính chất thảm họa như động đất, núi lửa, sóng thần, nhiễm phóng xạ, dịch bệnh/tình trạng khẩn cấp y tế theo công bố của WHO hoặc cơ quan Nhà nước có thẩm quyền.
+5.8. Điểm loại trừ số 20 trong Quy tắc bảo hiểm được thay thế như sau: Thực hiện các biện pháp kế hoạch hóa gia đình, phá thai/hậu quả của phá thai do nguyên nhân tâm lý hay xã hội; điều trị vô sinh nam/nữ; thụ tinh nhân tạo, biến chứng thai sản trên NĐBH đã và đang làm thụ tinh nhân tạo (bằng tất cả các hình thức); xét nghiệm hoặc điều trị khả năng sinh sản hoặc hiếm muộn; rối loạn chức năng sinh dục hay điều trị sinh lý; điều trị bất lực/liệt dương; điều trị các vấn đề về giới tính; và bất kỳ hậu quả hay biến chứng nào từ những điều trị trên;
+5.9. Cơ sở y tế không chi trả bảo hiểm: CTBH không bồi thường các chi phí phát sinh tại một số cơ sở y tế thuộc danh sách “Cơ sở y tế không chi trả bảo hiểm” được cập nhật trên website của CTBH: https://www.baoviet.com.vn/insurance/
+5.10. Các điểm loại trừ khác áp dụng như trong Quy tắc Bảo hiểm Sức khỏe của Tổng Công ty bảo hiểm Bảo Việt ban hành theo Quyết định số 1927/2011/QĐ/TGĐ-BHBV ngày 22/06/2011 đính kèm.
+
+6. Điều khoản bảo hiểm tự động tăng/giảm đối với nhân viên và thu hồi thẻ (Cập nhật hàng tháng)
+6.1. Điều chỉnh tăng/giảm
+Đơn bảo hiểm này tự động mở rộng bảo hiểm cho bất cứ nhân viên nào của BMBH kể từ ngày bắt đầu làm việc cho BMBH với số tiền bảo hiểm không vượt quá số tiền bảo hiểm đối với nhân viên cùng tính chất công việc, đồng thời bảo hiểm cũng sẽ tự động hủy bỏ kể từ ngày kết thúc hợp đồng lao động đối với bất kỳ nhân viên nào nghỉ việc, với điều kiện là BMBH có trách nhiệm thông báo cho CTBH về sự thay đổi nhân viên hàng tháng trước ngày thứ 15 của tháng tiếp theo trong thời hạn bảo hiểm.
+Thông tin cần thiết phải khai báo gồm tên, ngày, tháng, năm sinh, ngày tham gia hoặc ngày nghỉ việc, số CMTND, chức vụ, chương trình bảo hiểm, lương và các thông tin khác theo yêu cầu của CTBH.
+Người thân thuộc đối tượng được tăng mới/người thân giảm trong thời hạn bảo hiểm được cập nhật hàng tháng cùng thời điểm khai báo với nhân viên (trước ngày thứ 15 của tháng tiếp theo trong thời hạn bảo hiểm). Vợ chồng mới cưới/con cái mới sinh của nhân viên cũ khai báo trong vòng 30 ngày kể từ ngày đăng ký kết hôn/ngày con cái đủ điều kiện tham gia bảo hiểm. Hiệu lực bảo hiểm cho các trường hợp người thân tăng giữa kỳ được tính từ ngày người thân đủ điều kiện tham gia bảo hiểm (ngày nhân viên mới ký hợp đồng/ngày nhân viên đăng ký kết hôn/ngày con mới sinh đủ điều kiện tham gia/ngày nhân viên qua thời gian thử việc - tăng cấp đủ điều kiện mua bảo hiểm cho người thân theo chính sách của công ty).
+6.2. Phí tính tăng/giảm:
+- Trường hợp bổ sung/điều chỉnh tăng: phí bảo hiểm bổ sung được tính theo biểu phí tỷ lệngắn hạn như quy định trong Quy tắc bảo hiểm với quyền lợi đầy đủ.
+- Trường hợp giảm: phí bảo hiểm hoàn lại được tính theo tỷ lệ giữa số ngày còn lại và 365 ngày trên cơ sở thời hạn của Hợp đồng chính với điều kiện người đó chưa phát sinh bồi thường trong suốt thời gian bảo hiểm.
+Phí bảo hiểm tăng/giảm trong năm được tổng hợp và quyết toán trong vòng 30 ngày tính từ ngày hết hạn hợp đồng bảo hiểm. Nếu phí Sửa đổi bổ sung tăng lớn hơn 25% tổng phí của HĐBH đã ký, phí phát sinh của SĐBS này phải được thanh toán trong vòng 30 ngày kể từ ngày phát sinh SĐBS.  Nếu quá thời hạn trên, BMBH không thanh toán đủ phí theo quy định, toàn bộ hồ sơ đã phát sinh trong thời hạn bảo hiểm sẽ được CTBH tạm dừng chi trả cho đến khi BMBH hoàn tất việc thanh toán phí trên.
+6.3. Thu hồi thẻ bảo hiểm:
+Trường hợp giảm nhân viên/người thân: BMBH có trách nhiệm thu lại thẻ bảo hiểm của nhân viên nghỉ việc và của người thân nhân viên đó (nếu có) vào ngày làm việc cuối cùng. Nếu không thể thu hồi thẻ, BMBH phải thông báo ngay lập tức cho CTBH.
+- Trường hợp BMBH thu hồi được thẻ bảo lãnh viện phí/hoặc có thông báo cho CTBH và hợp đồng bảo hiểm có điều khoản xác nhận của BMBH trên Giấy yêu cầu bồi thường: CTBH sẽ hủy bảo hiểm của nhân viên/người thân nhân viên đó kể từ ngày nhân viên nghỉ việc.
+- Trường hợp BMBH không thu hồi được thẻ bảo lãnh viện phí, hoặc không thông báo cho CTBH, hoặc hợp đồng được miễn xác nhận của BMBH trên Giấy yêu cầu bồi thường: CTBH sẽ hủy bảo hiểm của nhân viên/người thân nhân viên đó kể từ ngày CTBH nhận được khai báo tăng/giảm của BMBH.
+
+7. Quy định về cách tính ngày nằm viện:
+ + Đối với các bệnh viện không ghi giờ trên hồ sơ bệnh án: căn cứ vào Giấy ra viện, số ngày nằm viện = ngày xuất viện – ngày nhập viện.
++ Đối với các bệnh viện có ghi giờ trên hồ sơ bệnh án: ngày nằm viện được tính trên cơ sở qua đêm và số ngày nằm viện = số giờ nằm viện/24 giờ, hoặc theo số ngày giường thực tế trên bảng kê (trả theo số tiền nào thấp hơn).
+8. Giới hạn cơ sở y tế điều trị răng:
+Hợp đồng này bồi thường cho các chi phí khám chữa răng hợp lý, hợp lệ và được điều trị tại các cơ sở y tế theo quy định sau:
++ Chuyên khoa Nha tại tất cả các bệnh viện hoạt động hợp pháp trong phạm vi lãnh thổ Việt Nam.
++ Riêng tại TP Hồ Chí Minh và Hà Nội: ngoài Chuyên khoa nha tại tất cả các bệnh viện nói trên, hợp đồng này chỉ chấp thuận bồi thường cho các chi phí phát sinh tại các Phòng khám trong hệ thống có ký kết thỏa thuận bảo lãnh với Bảo Việt.
++ Ðối với các Tỉnh thành khác: ngoài Chuyên khoa nha tại tất cả các bệnh viện nói trên, hợp đồng này chấp thuận bồi thường cho các chi phí phát sinh tại các Phòng khám có giấy phép đăng ký kinh doanh và giấy phép hành nghề hợp pháp và cấp được hóa đơn hợp lệ theo quy định của Bộ Tài Chính.
++ CTBH không chi trả cho các chi phí khám chữa răng tại Phòng nha sau:
+1.	Nha khoa Happy (26, Hàm Nghi, Ðà Nẵng)
+2.	Nha Khoa Ðại Nam (328, Ông Ích Khiêm, Thanh Khê, Ðà Nẵng)
+3.	Nha khoa Việt Pháp - 24 Trần Duy Hưng, Hà Nội
+4.	Phòng khám ða khoa Hồng Phýớc - 96 Triệu Nữ Vương, Hải Châu, Ðà Nẵng
+5.	Nha khoa Hoàn Mỹ Ðà Nẵng (Nha khoa thẩm mỹ Ðà Nẵng) - 72 Pasteur, Ðà Nẵng.
+6.	Nha khoa Bông Sen Việt
+7.	Nha khoa HAPPY (Quảng Nam)
+8.	Nha khoa Việt Anh (12 Triệu Nữ Vương, Ðà Nẵng)
+9.	Nha khoa DR. Tiên – 124B Man Thiện, TP Thủ Ðức, HCM
+10.	Nha khoa Sunrise City – 29 Nguyễn Thị Thập. Quận 7, HCM
+11.	Cty TNHH TMDVTH Minh Anh Phát – thửa đất số 2, tờ bản đồ 48, Ðinh Thị Hòa, P An Hải Bắc, Ðà Nẵng
+12.	Nha khoa thẩm mỹ Hoàng Dung – 175 Ông Ích Khiêm, Ðà Nẵng
+13.	Nha khoa Hòa Hảo – 9-11 Hoàng Hữu Nam, Tân Phú, Quận Thủ Ðức, HCM
+14.	Nha khoa bác sĩ Vĩnh Hòa – 201 Ðiện Biên Phủ, Trà Vinh
+15.	Nha khoa Ngọc Anh – 133A Hoàng Diệu 2, TP Thủ Ðức, HCM 
+16.	Nha khoa Minh Phát – 357 Nguyễn Thái Bình, p 12, quận Tâm Bình, HCM
+17.	Nha khoa Khánh Nhi – 89 Bàu Cát 4, P 14, Q Tân Bình, HCM
+Danh sách này có thể cập nhật thêm mà không cần báo trước, chi tiết tại website của CTBH (http://www.baoviet.com.vn/insurance)
+9. Điều khoản kiểm tra
+9.1. CTBH có quyền yêu cầu NĐBH cung cấp các giấy tờ sau đây:
+- NĐBH là Nhân viên: Hợp đồng lao động và Sổ bảo hiểm xã hội
+- NĐBH là Người thân của  nhân viên: Giấy khai sinh (với con của nhân viên)/Giấy đăng ký kết hôn (với vợ/chồng nhân viên)/Sổ hộ khẩu
+CTBH có quyền từ chối bồi thường nếu NĐBH không cung cấp đầy đủ các giấy tờ nói trên. 
+Trường hợp NĐBH là thành viên Hội đồng quản trị hoặc Ban Tổng giám đốc không thể cung cấp Sổ bảo hiểm xã hội, có thể cung cấp sao kê lương hoặc chứng từ khác theo yêu cầu của Công ty bảo hiểm để CTBH xem xét chi trả tối đa 100% số tiền bồi thường thuộc trách nhiệm bảo hiểm.
+Riêng trường hợp nhân viên không được BMBH đóng bảo hiểm xã hội; hoặc nhân viên không cung cấp Sổ bảo hiểm xã hội được BMBH đóng khi CTBH yêu cầu, CTBH chi trả tối đa 20% số tiền bồi thường thuộc trách nhiệm bảo hiểm, riêng trường hợp tử vong sẽ không được bảo hiểm (Quy định này áp dụng cho cả nhân viên và người thân của nhân viên đó).
+CTBH có quyền chỉ định chuyên gia y khoa và/hoặc chuyên gia giám định tổn thất để tiến hành kiểm tra sức khoẻ của NĐBH và các thông tin có liên quan đến việc giải quyết khiếu nại nếu thấy cần thiết. NĐBH có nghĩa vụ hợp tác trong việc giám định này, nếu không, CTBH có quyền từ chối hồ sơ yêu cầu bồi thường liên quan. Ngoài ra, CTBH có quyền yêu cầu khám nghiệm tử thi trong trường hợp chết nếu việc khám nghiệm này không trái với Pháp luật và phong tục tập quán.
+9.2. Nếu NĐBH theo quy định hoặc Người thừa kế hợp pháp không trung thực trong việc thực hiện các quy định trong Bộ hợp đồng bảo hiểm, CTBH có quyền từ chối toàn bộ số tiền bồi thường phát sinh (nếu có), hiệu lực bảo hiểm của NĐBH sẽ bị chấm dứt và NĐBH sẽ không được hưởng bất cứ quyền lợi nào thuộc Hợp đồng bảo hiểm. Khoản phí bảo hiểm đã đóng không được hoàn lại. Trường hợp CTBH đã chi trả quyền lợi bảo hiểm do các hành vi nói trên, NĐBH/Người thụ hưởng/Người được ủy quyền/Người đại diện hợp pháp phải có nghĩa vụ hoàn trả lại cho CTBH số tiền đã chi trả.
+10. Chuyển đổi sang Hợp đồng bảo hiểm cá nhân
+Các trường hợp NĐBH có yêu cầu chuyển đổi từ hợp đồng nhóm sang hợp đồng cá nhân, CTBH sẽ xem xét đối với từng trường hợp cụ thể dựa trên lịch sử bồi thường, tình trạng sức khỏe của cá nhân NĐBH đó và các quy định của loại hình bảo hiểm liên quan.
+11.  Bổ sung, sửa đổi hoặc hủy bỏ Hợp đồng bảo hiểm
+11.1. Trường hợp một trong hai bên muốn sửa đổi, bổ sung hợp đồng này phải thông báo cho bên kia bằng văn bản trước 30 ngày kể từ ngày Hợp đồng sẽ được sửa đổi, bổ sung. Các sửa đổi bổ sung sẽ được lập thành phụ lục của Hợp đồng này.    
+11.2. Trường hợp BMBH không trung thực trong việc thực hiện các quy định trong bộ Hợp đồng bảo hiểm, hợp đồng bảo hiểm sẽ bị hủy bỏ. Trong trường hợp này, CTBH không chịu trách nhiệm bồi thường những rủi ro đã phát sinh. CTBH sẽ hoàn lại 70% phí bảo hiểm của thời gian hiệu lực còn lại với điều kiện tại thời điểm đó BMBH chưa phát sinh bồi thường. 
+11.3. Trường hợp một trong hai bên đề nghị chấm dứt hợp đồng bảo hiểm, bên yêu cầu chấm dứt phải thông báo bằng văn bản cho bên kia biết trước 30 ngày kể từ ngày có ý định chấm dứt. Việc chấm dứt hợp đồng phải phù hợp với quy định của Luật kinh doanh bảo hiểm, Bộ luật dân sự và tuân thủ theo hai trường hợp sau:
+11.3.1. Nếu hợp đồng được hai bên thỏa thuận chấm dứt theo yêu cầu chấm dứt hợp đồng bảo hiểm của BMBH, CTBH sẽ hoàn trả 80% phí bảo hiểm của thời gian hiệu lực còn lại, với điều kiện đến thời điểm đó hợp đồng bảo hiểm chưa phát sinh bồi thường.
+11.3.2. Nếu hợp đồng được hai bên thỏa thuận chấm dứt theo yêu cầu chấm dứt hợp đồng bảo hiểm của CTBH, CTBH sẽ hoàn trả 100% phí bảo hiểm của thời gian hiệu lực còn lại dù trước đó có phát sinh bồi thường hay không.
+12. Thủ tục giải quyết trả tiền bảo hiểm
+12.1. Hồ sơ yêu cầu trả tiền bảo hiểm:
+Khi yêu cầu bồi thường, NĐBH/Người thừa kế/Người thụ hưởng/Người được ủy quyền hợp pháp; bố/mẹ của trẻ em dưới 18 tuổi phải thông báo cho CTBH trong vòng 180 ngày và gửi cho CTBH hồ sơ yêu cầu bồi thường bằng Tiếng Anh hoặc Tiếng Việt không quá một (01) năm kể từ ngày NĐBH điều trị ổn định/hoặc xuất viện/hoặc tử vong.
+12.1.1. Giấy yêu cầu bồi thường (theo mẫu của CTBH, có chữ ký và con dấu của đại diện BMBH) do NĐBH/Người thừa kế/Người thụ hưởng/Người được ủy quyền hợp pháp của NĐBH kê khai và ký tên. Trường hợp NĐBH là trẻ em dưới 18 tuổi sẽ do bố/mẹ (là nhân viên của BMBH) kê khai và ký tên. 
+12.1.2. Các chứng từ thanh toán: hóa đơn tài chính/biên lai/phiếu thu theo quy định của Bộ Tài chính và bảng kê chi tiết kèm theo. Các giấy tờ trên phải là bản gốc và sẽ thuộc sở hữu của CTBH (Không yêu cầu bắt buộc cung cấp bản gốc bảng kê chi tiết của hóa đơn nếu số tiền trên bảng kê khớp với số tiền trên hoá đơn). Hóa đơn mua thuốc/điểu trị phải được xuất trong vòng 30 ngày kể từ ngày kê đơn thuốc/điều trị và thể hiện số lượng thuốc và loại thuốc đúng theo kê đơn của bác sỹ điều trị. CTBH không chấp nhận các phiếu thu/biên lai/hóa đơn bán lẻ cộng gộp, chỉ chấp nhận tối đa 01 phiếu thu/biên lai/hóa đơn bán lẻ cho mỗi hồ sơ yêu cầu bồi thường. 
+Trường hợp cơ sở y tế sử dụng hóa đơn điện tử thì hóa đơn được sử dụng trong chứng từ thanh toán của bộ hồ sơ sẽ là:
++ Bản thể hiện Hóa đơn điện tử có thông tin về đường dẫn tra cứu; hoặc
++ Hóa đơn chuyển đổi hóa đơn điện tử có chữ ký người chuyển đổi và dấu cơ sở cấp hóa đơn, có thông tin về đường dẫn tra cứu;
+12.1.3. Các chứng từ y tế: 
+- Toa thuốc (được kê trên đơn thuốc/sổ khám bệnh/phiếu khám và theo quy định của Bộ Y tế); 
+- Sổ khám bệnh/sổ y bạ/phiếu khám có chẩn đoán bệnh của bác sỹ và chỉ định điều trị; 
+- Giấy ra viện; 
+- Phiếu điều trị, chỉ định xét nghiệm/chẩn đoán hình ảnh, kết quả xét nghiệm/chẩn đoán hình ảnh, kết quả sinh thiết... (các tài liệu này là bắt buộc với hồ sơ ngoại trú, với hồ sơ nội trú chỉ cung cấp khi CTBH yêu cầu);
+- Giấy chứng nhận phẫu thuật/Phiếu mổ (trong trường hợp phải phẫu thuật/mổ)
+- Và các chứng từ y tế khác có liên quan theo yêu cầu của CTBH. 
+Tất cả các chứng từ y tế trên yêu cầu phải là bản gốc, có chữ ký, đóng dấu của cơ sở y tế (trừ đơn thuốc tại bệnh viện công có in mã vạch). Trường hợp không cung cấp được bản gốc có thể cung cấp bản sao của các chứng từ y tế trên có công chứng hoặc bản sao có xác nhận của CTBH (riêng hồ sơ có chứng từ thanh toán là hóa đơn điện tử và không cung cấp hóa đơn chuyển đổi hóa đơn điện tử: chỉ chấp nhận chứng từ y tế bản sao (có công chứng/xác nhận) nếu hóa đơn điện tử định danh Tổng Công ty Bảo hiểm Bảo Việt). Trong mọi trường hợp, CTBH có quyền yêu cầu NĐBH cung cấp bản gốc để kiểm tra.
+12.1.4. Trường hợp tai nạn:
+- Tai nạn sinh hoạt: NĐBH phải có Bản tường trình về tai nạn, không yêu cầu xác nhận của BMBH.
+- Tai nạn lao động: NĐBH phải có Bản tường trình về tai nạn có xác nhận của BMBH.
+- Tai nạn giao thông: nếu còn đủ điều kiện về sức khỏe và năng lực hành vi, NĐBH phải có Bản tường trình về tai nạn; hồ sơ giải quyết tai nạn của cơ quan công an (trong trường hợp có cơ quan công an tham gia hoặc trường hợp tử vong); Giấy phép lái xe, Giấy đăng ký xe trong trường hợp bị tai nạn khi đang điều khiển phương tiện giao thông (bản chính, hoặc bản sao có công chứng, hoặc bản sao có xác nhận của CTBH).  
+12.1.5. Trường hợp thương tật vĩnh viễn: Giấy chứng thương hoặc giấy chứng nhận thương tích hoặc bản giám định thương tật do Hội đồng y khoa tỉnh/thành phố cung cấp.
+12.1.6. Trường hợp trợ cấp ngày nghỉ do ốm bệnh/tai nạn: giấy chỉ định nghỉ của bác sỹ điều trị trên toa thuốc/giấy ra viện; bảng chấm công (hoặc giấy xác nhận nghỉ) có xác nhận của BMBH; Hợp đồng lao động/Quyết định tăng lương/Bảng kê lương (quy định này không áp dụng đối với trường hợp trợ cấp ngày nghỉ không tính theo lương)
+12.1.7. Trường hợp tử vong: hồ sơ bệnh án trước khi tử vong (nếu có), giấy chứng tử, giấy báo tử/giấy xác nhận nguyên nhân tử vong do cơ quan có thẩm quyền cấp, di chúc/giấy xác nhận quyền thừa kế hợp pháp trong trường hợp NĐBH không chỉ định Người thụ hưởng, hoặc Người thụ hưởng đã tử vong/mất tích. Các chứng từ trên phải là bản gốc hoặc bản sao có công chứng.
+12.1.8. Giấy tờ chứng minh quan hệ nhân thân (đối với các hồ sơ khiếu nại bồi thường của người thân) trong trường hợp CTBH yêu cầu.
+12.1.9. Các chứng từ khác có liên quan phục vụ việc giải quyết bồi thường theo yêu cầu của CTBH.
+Trường hợp yêu cầu bồi thường cho người thân, nhân viên được thay mặt người thân để yêu cầu CTBH chi trả bồi thường và nhận tiền bồi thường trừ trường hợp bồi thường cho quyền lợi tử vong phải theo quy định của Pháp luật về quyền thừa kế.
+12.2. Thời hạn khiếu nại và trả tiền bảo hiểm:
+12.2.1. CTBH có trách nhiệm giải quyết và chi trả tiền bảo hiểm bằng tiền mặt hoặc chuyển khoản theo thông tin kê khai của Người được bảo hiểm trên Giấy yêu cầu bồi thường trong vòng 15 ngày làm việc kể từ ngày nhận được hồ sơ yêu cầu bồi thường đầy đủ, hợp lệ.
+12.2.2. NĐBH có quyền khiếu nại về việc trả tiền bảo hiểm của CTBH trong vòng 06 tháng kể từ ngày nhận được thông báo của CTBH và bất cứ khiếu nại nào cũng không được vượt quá 03 năm kể từ ngày xảy ra sự kiện dẫn đến khiếu nại. 
+12.2.3. Mọi tranh chấp phát sinh từ Quy tắc bảo hiểm và Hợp đồng bảo hiểm này mà không thể giải quyết bằng thương lượng sẽ được giải quyết ở Toà án của Việt Nam và theo Luật pháp Việt Nam.
+
+
+13. Thẻ bảo lãnh và thủ tục bảo lãnh viện phí:
+13.1. Thẻ bảo lãnh
+Thẻ bảo lãnh được cấp cho mỗi NĐBH dùng để bảo lãnh viện phí trong trường hợp nằm viện, phẫu thuật do tai nạn/ốm bệnh/thai sản, điều trị ngoại trú & răng tại các bệnh viện/phòng khám trong hệ thống bảo lãnh viện phí của CTBH, cụ thể:
+-  Áp dụng bảo lãnh viện phí Nội trú (thẻ Xanh) nếu mức phí sau chiết khấu đạt 2.000.000 VNĐ/người/năm
+- Áp dụng bảo lãnh viện phí Nội trú, Ngoại trú, Răng (Thẻ Vàng) với chương trình 2 đối với đối tượng là cán bộ nhân viên công ty là thành viên Hội đồng Quản Trị, Ban Giám Đốc, Ban Kiểm Soát, Chi Hội Điện Lực . Còn lại áp dụng thẻ xanh
+
+Danh sách bệnh viện, phòng khám trong hệ thống bảo lãnh viện phí của CTBH và danh sách cơ sở y tế không được chi trả có thể thay đổi mà không cần báo trước và được cập nhật thường xuyên trên website của CTBH http://www.baoviet.com.vn/insurance
+13.2. Thủ tục bảo lãnh viện phí:
+Khi có yêu cầu bảo lãnh tại các bệnh viện/phòng khám trong hệ thống bảo lãnh của chương trình, NĐBH phải:
+- Xuất trình thẻ bảo lãnh và Giấy tờ tùy thân (Giấy khai sinh nếu NĐBH là trẻ em dưới 15 tuổi) cho bệnh viện/phòng khám.
+- Kiểm tra Giấy yêu cầu bồi thường mà bệnh viện/phòng khám cung cấp sau khi điều trị và ký tên để xác nhận việc điều trị của NĐBH, đặt cọc theo quy định của bệnh viện/phòng khám (nếu có).
+- Thanh toán các chi phí không thuộc phạm vi bảo hiểm hoặc vượt quá mức trách nhiệm bảo hiểm. 
+14. Khi có sự thay đổi những yếu tố làm cơ sở để tính phí bảo hiểm dẫn đến tăng các rủi ro được bảo hiểm, CTBH có quyền thực hiện một trong các nội dung sau đây: 
++	Tính lại phí bảo hiểm cho thời gian còn lại của hợp đồng bảo hiểm;
++	Giảm số tiền bảo hiểm cho thời gian còn lại của hợp đồng bảo hiểm; 
++	Rút ngắn thời hạn bảo hiểm; 
++	Thu hẹp phạm vi bảo hiểm cho thời gian còn lại của hợp đồng bảo hiểm. 
+Trường hợp BMBH không chấp nhận yêu cầu của CTBH, CTBH có quyền đơn phương chấm dứt thực hiện hợp đồng bảo hiểm và thông báo ngay bằng văn bản cho BMBH.
+15. Điều khoản về Bảo vệ và xử lý Dữ liệu cá nhân:
+BMBH và NĐBH đồng ý rằng CTBH có quyền thu thập, xử lý và lưu trữ Dữ liệu cá nhân để thực hiện các quyền và nghĩa vụ quy định trong Hợp đồng bảo hiểm này và những công việc có liên quan khác theo quy định của pháp luật. 
+Khi thực hiện các quyền và nghĩa vụ được quy định trong Hợp đồng bảo hiểm, BMBH phải thông tin đầy đủ và đảm bảo rằng NĐBH đã đọc và đồng ý với các Điều khoản và Điều kiện chung của CTBH về Bảo vệ và xử lý Dữ liệu cá nhân quy định tại website của CTBH: http://www.baoviet.com.vn/insurance 
+
+16. Các điều khoản mở rộng: 
+16.1. Mở rộng vitamin, khoáng chất hỗ trợ điều trị: 
+Mở rộng bồi thường vitamin, khoáng chất khi thỏa mãn các điều kiện sau:
+• Được kê đơn theo sự chỉ định của Bác sỹ điều trị;
+• Hỗ trợ cho việc điều trị bệnh/tai nạn;
+• Trong toa thuốc phải có thuốc điều trị đi kèm;
+Tổng chi phí bồi thường cho các loại vitamin, khoáng chất không lớn hơn 20% tổng chi phí của cả toa thuốc.
+16.3. Mở rộng khi điều trị tại bệnh viện công:
+- Đồng ý không yêu cầu bảng kê chi tiết viện phí với chi phí y tế từ 500.000 VNĐ/ lần khám ngoại trú trở xuống tại bệnh viện công (không bao gồm khoa tự nguyện và khoa quốc tế tại bệnh viện công). Nội dung này không áp dụng với chi phí mua thuốc.
+- Đồng ý không yêu cầu bảng kê chi tiết viện phí với chi phí y tế từ 2.000.000 VNĐ/ lần nằm viện trở xuống tại bệnh viện công (không bao gồm khoa tự nguyện và khoa quốc tế tại bệnh viện công). Nội dung này không tính tới các biên lai viện phí đã có bảng kê viện phí.
+- Không yêu cầu đóng dấu trên toa thuốc (in từ máy tính) nếu có mã bệnh viện, mã bệnh nhân in trên các chứng từ điều trị khác mà các chứng từ này đã được đóng dấu.
+16.4. Mở rộng bảo hiểm đinh/nẹp/vis
+Bảo hiểm đinh/nẹp/vis cố định vào cơ thể trong trường hợp tai nạn, giới hạn 10% STBH quyền lợi Chi phí y tế di tai nạn
+16.8. Mở rộng điều khoản được bồi thường qua app BVDirect. 
+Bảo hiểm Bảo Việt áp dụng giải quyết quyền lợi bảo hiểm trên bộ hồ sơ mềm nộp qua ứng dụng BaoViet Direct như sau:
+a. Điều kiện áp dụng:
+Khoản tiền bồi thường không phải là di sản thừa kế, và nhỏ hơn hoặc bằng 10.000.000 VNĐ (Mười triệu đồng)
+b. Điều kiện về bộ hồ sơ mềm
+(b1) Bản thể hiện Giấy yêu cầu bồi thường (“GYCBT”) và Tường trình tai nạn (“TTTN”) được khởi tạo từ ứng dụng BaoViet Direct có giá trị tương đương bản cứng được người khai báo ký trực tiếp - với điều kiện khi khai báo trên ứng dụng, người khai báo đã được xác thực điện tử bằng mã OTP gửi tới số điện thoại đăng ký sử dụng;
+
+* Lưu ý: Đối với Hợp đồng bảo hiểm yêu cầu dấu và chữ ký xác nhận của Nhân
+sự (hoặc Đại diện Bên mua bảo hiểm) trên GYCBT/TTTN: Chấp nhận bản
+sao/bản chụp từ bản chính/bản scan/bản photo… đã có xác nhận của Nhân sự (hoặc Đại diện Bên mua bảo hiểm).
+
+Các chứng từ này được lưu tại hệ thống công nghệ thông tin của Bảo hiểm Bảo
+Việt (BHBV), khách hàng không phải in/ký/gửi bản cứng tới BHBV sau đó.
+(b2) Toàn bộ các chứng từ thanh toán của bộ hồ sơ là:
+- Bản thể hiện Hóa đơn điện tử có thông tin về đường dẫn tra cứu; hoặc
+- Hóa đơn chuyển đổi hóa đơn điện tử có thông tin về đường dẫn tra cứu;
+(b3) Các chứng từ y tế:
+Chấp nhận bản sao (bản chụp từ bản chính/bản chụp ảnh/bản scan/bản photo...) các chứng từ y tế và không yêu cầu bản sao có chứng thực/bản sao có xác nhận của BHBV;
+Riêng đối với các cơ sở y tế công lập: Không yêu cầu dấu của khoa/phòng khám/bệnh viện đối với các cơ sở y tế quản lý bệnh nhân bằng mã vạch;
+(b4) Các chứng từ khác:
+Chấp nhận bản sao có chứng thực hoặc bản sao có xác nhận của BHBV tuỳ từng trường hợp cụ thể;
+*Bảo hiểm Bảo Việt bảo lưu quyền đề nghị khách hàng cung cấp bản cứng/bản chính của toàn bộ các chứng từ trên và bộ hồ sơ gốc để kiểm tra, xác minh, đối chiếu trong một số trường hợp cần thiết.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PHỤ LỤC III 
+Bảng tính phí bảo hiểm 
+									Đơn vị/ Unit: VNĐ
+Số lượng người tham gia: 241 người, trong đó
++ 222 NĐBH tham gia Chương trình 1 
++ 12 NĐBH tham gia Chương trình 2
++ 02 NĐBH tham gia Chương trình 2 áp dụng thu phí bổ sung tăng 30%
++ 05 NĐBH tham gia Chương trình 1 áp dụng thu phí bổ sung tăng 30%
+
+QUYỀN LỢI BẢO HIỂM	
+PHÍ BẢO HIỂM	
+PHÍ BẢO HIỂM
+Chương trình	1	2
+Điều kiện A - Bảo hiểm Sinh mạng	
+120.000	200.000
+Điều kiện B - Chết, thương tật vĩnh viễn do tai nạn	
+54.000	90.000
+Điều kiện C - Chi phí y tế do tai nạn 	
+480.000	650.000
+Điều kiện D - Điều trị Nội trú do ốm bệnh, thai sản 	
+1.320.000	2.000.000
+Quyền lợi bảo hiểm bổ sung - Điều trị ngoại trú do ốm bệnh	
+1.200.000	2.000.000
+Phí bảo hiểm/người/năm	
+3.174.000	4.940.000
+Giảm phí nhóm	20%	20%
+Phí bảo hiểm sau khi giảm
+(người/năm) (1)
+(Phí bảo hiểm như năm 2023)	2.539.200	3.952.000
+Phí bảo hiểm sau khi thu phí bổ sung tăng 30% (áp dụng với NĐBH từ 15 ngày tuổi đến dưới 12 tháng tuổi hoặc NĐBH từ 65 tuổi đến 70 tuổi) (2)	2.539.200 * 130% = 3.300.960	3.952.000 * 130% = 5.137.600
+Số người tham gia có độ tuổi 12 tháng tuổi đến dưới 65 tuổi  (3)	222	12
+Số người tham gia có độ tuổi từ 65 tuổi đến 70 tuổi  (4)	04	02
+Số người thân quá tuổi quy định (được phép mở rộng) (5)	01	00
+Tổng phí nhóm (6) = (1)* (3) + (2) * (4) + (2)*(5)	222 * 2.539.200 + 04 * 3.300.960 + 01 * 3.300.960 =  580.207.200	12 * 3.952.000 + 02 * 5.137.600 = 57.699.200
+Tổng phí của hợp đồng	
+580.207.200 + 57.699.200= 637.906.400 
+
+(Sáu trăm ba mươi bảy triệu chín trăm lẻ sáu ngàn bốn trăm đồng)
+Thẻ bảo lãnh	Thẻ xanh 
+(Bảo lãnh Nội trú)	Thẻ vàng
+(Bảo lãnh Nội trú + Ngoại trú + Răng)
+Theo quy định tại điều 13 – Thẻ bảo lãnh 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PHỤ LỤC IV: 
+Điều chỉnh một số định nghĩa của Phần I: Quy định chung của Quy tắc Bảo hiểm Sức khỏe của Tổng Công ty bảo hiểm Bảo Việt ban hành theo Quyết định số 1927/2011/QĐ/TGĐ-BHBV ngày 22/06/2011 và bổ sung một số định nghĩa mới 
+(Đính kèm và là 1 bộ phận không tách rời của HĐBH số DAN.D07.BVC.24.HD5)
+
+1. Định nghĩa số 5 – Thương tật toàn bộ vĩnh viễn được thay thế như sau: là các tổn thương thân thể do tai nạn gây ra làm cho NĐBH bị cản trở hoàn toàn khi tham gia vào công việc của người đó hay bị mất hoàn toàn khả năng lao động trong bất kỳ loại lao động nào, kéo dài 104 tuần liên tục kể từ ngày xảy ra sự kiện bảo hiểm và không hy vọng vào sự tiến triển của thương tật đó.
+Thương tật toàn bộ vĩnh viễn chỉ được xác định sau khi điều trị tổn thương thân thể gây ra thương tật đó đã kết thúc. 
+CTBH chỉ bảo hiểm cho các Thương tật toàn bộ vĩnh viễn được liệt kê trong Phụ lục V – Bảng tỷ lệ trả tiền tử vong/thương tật vĩnh viễn đính kèm
+2. Định nghĩa số 6 – Thương tật bộ phận vĩnh viễn được thay thế như sau: là các tổn thương thân thể do tai nạn gây ra làm cho NĐBH vĩnh viễn mất đi chức năng hoạt động của một hay nhiều bộ phận cơ thể do hậu quả của việc bị cắt cụt (mất) hoặc liệt hoàn toàn và vĩnh viễn bộ phận đó. 
+Thương tật bộ phận vĩnh viễn chỉ được xác định sau khi điều trị tổn thương thân thể gây ra thương tật đó đã kết thúc. Trong trường hợp thương tật bộ phận vĩnh viễn chưa được xác định ngay sau khi kết thúc việc điều trị tổn thương thân thể, thương tật đó được coi là thương tật bộ phận vĩnh viễn nếu nó diễn biến kéo dài trong vòng 52 tuần liên tục kể từ ngày kết thúc điều trị.
+CTBH chỉ bảo hiểm cho các Thương tật bộ phận vĩnh viễn được liệt kê trong Phụ lục V – Bảng tỷ lệ trả tiền tử vong/thương tật vĩnh viễn đính kèm.
+3. Định nghĩa số 9- Bệnh đặc biệt được thay thế như sau: là những bệnh ung thư, u/bướu các loại; huyết áp, các bệnh về tim, đột quỵ, suy/giãn tĩnh mạch; loét dạ dày, loét ruột, viêm gan A/B/C, xơ gan, suy gan, sỏi mật; sỏi thận và niệu quản, sỏi đường tiết niệu dưới, hội chứng thận hư, suy thận; viêm khớp/đa khớp mãn tính, thoái hóa cột sống; suy tủy xương; đục thủy tinh thể bệnh lý; Parkinson, Alzheimer, hội chứng mất trí nhớ; đái tháo đường; tràn khí màng phổi; lupus ban đỏ.
+4. Định nghĩa số 14 – Nằm viện không áp dụng
+5. Định nghĩa số 15 – Phòng và giường điều trị được thay thế như sau: là các chi phí tiền phòng, giường cho NĐBH nằm điều trị. Trường hợp NĐBH sử dụng phòng từ 02 giường trở lên, Bảo hiểm Bảo Việt chỉ chi trả chi phí cho 01 giường bệnh phục vụ cho NĐBH.
+6. Định nghĩa số 16 – Phẫu thuật được thay thế như sau: là một phương pháp khoa học để điều trị thương tật, bệnh tật, thai sản thuộc phạm vi bảo hiểm được thực hiện bởi những phẫu thuật viên có bằng cấp thông qua những ca mổ bằng tay với các dụng cụ y tế hoặc bằng thiết bị y tế trong một cơ sở y tế hợp pháp, gồm mổ phanh, mổ nội soi, mổ bằng tia laser, tiểu phẫu, thủ thuật. 
+Phẫu thuật bao gồm 03 loại:
+•	Phẫu thuật nội trú: là trường hợp phẫu thuật mà NĐBH lưu trú tại viện từ 24 giờ trở lên;
+•	Phẫu thuật trong ngày: là trường hợp phẫu thuật mà NĐBH lưu trú tại bệnh viện có phát sinh giường, phòng nhưng không đủ 24 giờ;
+•	Phẫu thuật ngoại trú: là trường hợp phẫu thuật mà NĐBH lưu trú tại bệnh viện dưới 24 giờ nhưng không phát sinh tiền giường, phòng hoặc NĐBH thực hiện tại phòng khám
+7. Định nghĩa số 18 – Điều trị nội trú được thay thế như sau: là việc NĐBH phải nhập viện để điều trị bệnh/thương tật/thai sản thuộc phạm vi bảo hiểm, có phát sinh chi phí giường bệnh và lưu trú tại bệnh viện ít nhất 24 giờ. Điều trị nội trú chỉ được chấp nhận khi NĐBH thực hiện điều trị tại một Bệnh viện như định nghĩa, không phải là Phòng khám hay cơ sở điều trị ngoại trú.
+
+8. Định nghĩa số 19 – Chi phí điều trị trước khi nhập viện được thay thế bằng “Chi phí khám trước khi nhập viện”, nội dung điều chỉnh như sau: là các chi phí thăm khám, chẩn đoán, xét nghiệm cần thiết và liên quan trực tiếp đến ốm đau, bệnh tật của NĐBH cần phải nằm viện/phẫu thuật ngay sau đó, và những chẩn đoán này là cơ sở trực tiếp để bác sỹ kết luận việc nằm viện/phẫu thuật là cần thiết. Việc thăm khám, chẩn đoán như vậy không vượt quá 30 ngày trước khi nhập viện điều trị và chỉ thanh toán cho 01 lần gần nhất trước khi nhập viện.
+9. Định nghĩa số 21 – Thuốc theo kê đơn của bác sĩ được thay thế như sau: là những thuốc được bán và sử dụng theo chỉ định của Bác sỹ và theo quy định của pháp luật, không bao gồm: thực phẩm chức năng, dược mỹ phẩm, mỹ phẩm; chế phẩm y tế không nằm trong danh mục thuốc điều trị của Bộ Y tế; khoáng chất, vitamin; thuốc tăng cường miễn dịch cơ thể/tăng sức đề kháng. Tuy nhiên, CTBH sẽ xem xét bồi thường khoáng chất, vitamin khi thỏa mãn các điều kiện sau:
+•	Được kê đơn theo sự chỉ định của Bác sỹ điều trị;
+•	Hỗ trợ cho việc điều trị bệnh/tai nạn;
+•	Trong toa thuốc phải có thuốc điều trị đi kèm;
+Tổng chi phí cho các loại khoáng chất, vitamin không lớn hơn 20% tổng chi phí của cả toa thuốc.
+10. Định nghĩa số 25 - Điều trị trong ngày được thay thế như sau: là việc NĐBH nhập viện để điều trị bệnh/thương tật/thai sản thuộc phạm vi bảo hiểm, có phát sinh chi phí giường bệnh nhưng không lưu trú tại bệnh viện đủ 24 giờ. Các trường hợp lưu trú tại bệnh viện để thực hiện xét nghiệm hoặc chẩn đoán nhưng không điều trị sẽ không được coi là Điều trị trong ngày.
+11. Định nghĩa số 28 – Các bộ phận/thiết bị y tế hỗ trợ điều trị được thay thế như sau: là
+•	Các bộ phận/thiết bị y tế được đặt/cấy/trồng vào bất cứ một bộ phận nào của cơ thể để hỗ trợ cho chức năng hoạt động của bộ phận đó: stent,  van tim, bộ máy tạo nhịp tim và phá rung, ống thông, lưới lọc, lưới thoát vị, lưới titanium 3D, cement (xi-măng) cột sống/đốt sống, miếng ghép cột sống/đốt sống, màng tái tạo mô, màng sinh học, chốt/trụ implant, nẹp/vis/chốt treo các loại, tấm nâng trực tràng, lưới (mesh). 
+•	Các bộ phận/thiết bị y tế có tính chất đặc thù/chỉ sử dụng riêng cho từng loại hình điều trị hoặc phẫu thuật/sử dụng một lần và không khấu hao: dao Plasma, tay dao/dụng cụ coblator, dao/dụng cụ hummer, dụng cụ cắt trĩ theo phương pháp longo, dao bào phẫu thuật khớp, dao cắt sụn, lưỡi bào, đầu đốt, dao siêu âm, catheter các loại, dao harmonic mổ hở/nội soi, hệ thống robot, bóng nong, rọ tán sỏi, lưỡi shaver, trocar, dây dẫn, dao ligasure, bộ dụng cụ nội soi tán sỏi và vỏ đỡ, thiết bị đốt sóng cao tần. 
+•	Các bộ phận/thiết bị y tế có tác dụng hỗ trợ chức năng vận động hoặc các chức năng khác của cơ thể như: nạng, nẹp, xe lăn, máy trợ thính, kính thuốc, máy hỗ trợ tim.
+•	Các dụng cụ chỉnh hình mang tính chất thẩm mỹ khác
+Bộ phận giả: là các bộ phận/thiết bị/chất liệu được làm giả/nhân tạo để thay thế cho các bộ phận của cơ thể.
+12. Định nghĩa số 29 - Chăm sóc thai sản không áp dụng
+13. Định nghĩa số 31 – Biến chứng thai sản được thay thế như sau:
+ Là tình trạng bất thường của bào thai, biến chứng do nguyên nhân bệnh lý phát sinh trong quá trình mang thai của NĐBH (nhưng không liên quan đến việc điều trị vô sinh, sinh non, sinh nở) phải điều trị theo chỉ định của bác sỹ. Biến chứng thai sản bao gồm các trường hợp sau:
+•	Sẩy thai hoặc thai nhi chết trong tử cung (thai lưu);
+•	Mang thai trứng nước;
+•	Thai ngoài tử cung; 
+•	Băng huyết sau khi sinh;
+•	Sót nhau thai trong tử cung sau khi sinh;
+•	Phá thai điều trị, bao gồm trường hợp phá thai do các bệnh lý di truyền/dị tật bẩm sinh của thai nhi hoặc phải phá thai để bảo vệ tính mạng của người mẹ;
+•	Dọa sinh non đối với thai từ tuần thứ 22 đến tuần thứ 35 của thai kỳ;
+•	Biến chứng của các nguyên nhân trên
+14. Định nghĩa số 32 – Điều trị ngoại trú được thay thế như sau: là việc NĐBH điều trị tại một cơ sở y tế/bệnh viện/phòng khám như định nghĩa nhưng không nhập viện. 
+Trường hợp NĐBH thực hiện nội soi/thủ thuật (bao gồm nội trú, trong ngày hoặc ngoại trú) chỉ nhằm mục đích chẩn đoán bệnh mà không điều trị chỉ được giải quyết theo quyền lợi điều trị ngoại trú.
+15. Định nghĩa số 43 – Thời gian chờ được thay thế như sau: là thời gian mà các quyền lợi bảo hiểm có liên quan không được chi trả bảo hiểm bao gồm cả những trường hợp thời điểm phát sinh rủi ro nằm trong thời gian chờ nhưng chi phí phát sinh hoặc chi phí điều trị hậu quả của đợt điều trị rủi ro này lại kéo dài quá thời gian chờ quy định.
+16. Bổ sung định nghĩa số 46 - Danh mục bệnh/thương tật loại trừ trong 365 ngày đầu tiên tham gia bảo hiểm: gồm những bệnh viêm Amidan cần phải cắt, viêm VA cần phải nạo, vẹo vách ngăn cần phẫu thuật, viêm xoang, bệnh hen/suyễn; rối loạn tiền đình, polip các loại; viêm tai giữa cần phẫu thuật; thoát vị đĩa đệm, gút; trĩ; hội chứng ống cổ tay phải phẫu thuật; rối loại chuyển hóa các loại; phẫu thuật dây chằng/rách sụn chêm.
+17. Bổ sung định nghĩa số 47 - Đồng chi trả: là số tiền theo tỷ lệ mà CTBH và NĐBH cùng chi trả trên chi phí thuộc phạm vi bảo hiểm. Đồng chi trả được tính theo tỷ lệ phần trăm (%) trên tổng chi phí thực tế phát sinh thuộc phạm vi bảo hiểm hoặc trên các mức giới hạn phụ của quyền lợi bảo hiểm, tùy theo số tiền nào thấp hơn thì được áp dụng.
+Giới hạn chi phí được bảo hiểm sau khi áp dụng đồng chi trả tối đa bằng giới hạn của mục quyền lợi trong Bảng quyền lợi bảo hiểm. Khi Hợp đồng bảo hiểm quy định áp dụng đồng chi trả theo cơ sở y tế, việc đồng chi trả này được áp dụng cho mọi chi phí phát sinh tại cơ sở y tế đó và các chi phí phát sinh liên quan do bác sỹ tại cơ sở y tế đó chỉ định. 
+Khi hợp đồng bảo hiểm quy định nhiều tỷ lệ đồng chi trả thì sẽ áp dụng đồng thời và lần lượt từng tỷ lệ đồng chi trả. 
+Đồng chi trả không áp dụng đối với các quyền lợi được trả tiền bảo hiểm theo nguyên tắc khoán.
+18. Bổ sung định nghĩa số 48 – Tuổi được bảo hiểm: Tuổi được bảo hiểm là tuổi của Người được bảo hiểm vào ngày bắt đầu hiệu lực của Hợp đồng bảo hiểm tính theo lần sinh nhật liền trước ngày Hợp đồng có hiệu lực.
+
+
+
+
+ 
+PHỤ LỤC V:
+BẢNG TỶ LỆ TRẢ TIỀN TỬ VONG/THƯƠNG TẬT VĨNH VIỄN
+		
+STT	Quyền lợi	Tỷ lệ trả tiền
+I	TỬ VONG	100%
+		
+II	THƯƠNG TẬT TOÀN BỘ VĨNH VIỄN	100%
+1	Mất hoặc mù hoàn toàn 2 mắt	100%
+2	Rối loạn tâm thần hoàn toàn không thể chữa được	100%
+3	Hỏng toàn bộ chức năng nhai và nói	100%
+4	Mất hoặc liệt hoàn toàn 2 tay (từ vai hoặc khuỷu xuống) hoặc 2 chân (từ háng hoặc đầu gối xuống)	100%
+5	Mất cả hai bàn tay hoặc hai bàn chân hoặc mất một cánh tay và một bàn chân hoặc mất một cánh tay và một cẳng chân hoặc mất một bàn tay và một cẳng chân hoặc mất một bàn tay và một bàn chân	100%
+6	Mất hoàn toàn khả năng lao động mà không thể làm bất cứ việc gì (toàn bộ cơ thể bị tê liệt, bị thương dẫn đến tình trạng nằm liệt giường không thể phục hồi được, hoặc dẫn đến thương tật toàn bộ vĩnh viễn)	100%
+7	Cắt toàn bộ một bên phổi và một phần phổi bên kia	100%
+		
+III	THƯƠNG TẬT BỘ PHẬN VĨNH VIỄN	 
+ 	CHI TRÊN	 
+8	Mất một cánh tay từ vai xuống (Tháo khớp vai)	75%
+9	Cắt cụt cánh tay từ dưới vai xuống	70%
+10	Cắt cụt một cánh tay từ khuỷu xuống (Tháo khớp khuỷu)	65%
+11	Mất trọn một bàn tay hoặc toàn bộ cả 5 ngón tay	60%
+12	Mất đồng thời cả bốn ngón tay của một bàn tay	40%
+13	Mất đồng thời cả ngón cái và ngón trỏ	35%
+14	Mất 3 ngón: ngón trỏ, ngón giữa và ngón đeo nhẫn	30%
+15	Mất ngón cái và 2 ngón khác	35%
+16	Mất ngón cái và một ngón khác	30%
+17	Mất ngón trỏ và hai ngón khác	35%
+18	Mất ngón trỏ và một ngón khác	25%
+19	Mất ngón giữa và ngón đeo nhẫn 	19%
+20	Mất ngón giữa và ngón út 	18%
+21	Mất ngón đeo nhẫn và ngón út	18%
+22	Mất trọn ngón cái và đốt bàn	25%
+ 	- Mất trọn ngón cái	20%
+ 	- Mất cả đốt ngoài của ngón cái	10%
+ 	- Mất nửa đốt ngoài của ngón cái	07%
+23	Mất trọn ngón trỏ và đốt bàn	20%
+ 	- Mất trọn ngón trỏ	18%
+ 	- Mất hai đốt 2 và 3 của ngón trỏ	10%
+ 	- Mất đốt 3 của ngón trỏ	08%
+24	Mất trọn ngón giữa hoặc ngón nhẫn (bao gồm cả đốt bàn)	18%
+ 	- Mất trọn ngón giữa hoặc ngón nhẫn	15%
+ 	- Mất hai đốt 2 và 3 của ngón giữa hoặc ngón nhẫn	08%
+ 	- Mất đốt 3 của ngón giữa hoặc ngón nhẫn	04%
+25	Mất trọn ngón út và đốt bàn	15%
+ 	- Mất trọn ngón út	10%
+ 	- Mất hai đốt 2 và 3 của ngón út	08%
+ 	- Mất đốt 3 của ngón út	04%
+26	Cứng khớp bả vai	30%
+27	Cứng khớp khuỷu tay	25%
+28	Cứng khớp cổ tay	20%
+29	Gãy tay can lệch hoặc mất xương làm chi ngắn trên 3cm và chức năng quay sấp ngửa hạn chế hoặc tạo thành khớp giả	25%
+		
+ 	CHI DƯỚI	 
+30	Mất một chân từ háng xuống (Tháo khớp không một đùi)	75%
+31	Cắt cụt một đùi	 
+ 	- Cắt cụt một đùi 1/3 trên	70%
+ 	- Cắt cụt một đùi 1/3 giữa hoặc dưới	55%
+32	Cắt cụt một chân từ gối xuống (Tháo khớp gối)	60%
+33	Tháo khớp cổ chân hoặc mất một bàn chân	55%
+34	Mất xương sên	35%
+35	Mất xương gót	35%
+36	Mất đoạn xương chày, mác gây khớp giả cẳng chân	35%
+37	Mất đoạn xương mác	20%
+38	Mất mắt cá chân: Mắt cá ngoài	10%
+ 	Mất mắt cá chân: Mắt cá trong	15%
+39	Mất cả năm ngón chân	45%
+40	Mất bốn ngón chân bao gồm cả ngón cái	38%
+41	Mất bốn ngón chân không bao gồm ngón cái	35%
+42	Mất ba ngón chân không bao gồm ngón cái 	25%
+43	Mất ba ngón chân bao gồm cả ngón cái	30%
+44	Mất một ngón cái và ngón 2	20%
+45	Mất một ngón cái và một ngón khác (trừ ngón 2) 	16%
+46	Mất một ngón 2 và ngón khác (trừ ngón cái) 	11%
+47	Mất hai ngón 3 và 4; hoặc mất hai ngón 3 và 5; hoặc mất hai ngón 4 và 5 	06%
+48	Mất một ngón cái	15%
+49	Mất một ngón ngoài ngón cái	10%
+50	Mất một đốt ngoài của ngón cái	08%
+51	Mất một đốt của ngón khác	01%
+52	Mất hai đốt của ngón khác 	02%
+53	Cứng khớp hông	45%
+54	Cứng khớp gối	30%
+55	Mất phần lớn xương bánh chè và giới hạn nhiều khả năng duỗi cẳng chân trên đùi	45%
+56	Gãy chân can lệch hoặc mất xương làm ngắn chi	 
+ 	- Gãy chân can lệch hoặc mất xương làm ngắn chi: Ít nhất 5 cm	40%
+ 	- Gãy chân can lệch hoặc mất xương làm ngắn chi: Từ 3 đến 5 cm	35%
+57	Liệt hoàn toàn dây thần kinh hông khoeo ngoài	35%
+58	Liệt hoàn toàn dây thần kinh hông khoeo trong	25%
+		
+ 	CỘT SỐNG	 
+59	Cắt bỏ cung sau của một đốt sống	35%
+ 	Cắt bỏ cung sau của 2 – 3 đốt sống trở lên	45%
+		
+ 	SỌ NÃO	 
+60	Khuyết xương sọ (chưa có biểu hiện thần kinh, tâm thần) gây ra đau đầu kéo dài	35%
+		
+ 	LỒNG NGỰC	 
+61	Cắt bỏ 1 - 2 xương sườn	15%
+62	Cắt bỏ từ 3 xương sườn trở lên	25%
+63	Cắt bỏ đoạn mỗi xương sườn	08%
+64	Cắt toàn bộ một bên phổi	70%
+65	Cắt nhiều thùy phổi ở 2 bên, dung tích sống giảm trên 50%	65%
+66	Cắt nhiều thùy phổi ở 1 bên	50%
+67	Cắt một thùy phổi	35%
+		
+ 	BỤNG	 
+68	Cắt toàn bộ dạ dày	75%
+69	Cắt đoạn dạ dày	50%
+70	Cắt gần hết ruột non (còn lại dưới 1 m)	75%
+71	Cắt đoạn ruột non	40%
+72	Cắt toàn bộ đại tràng	75%
+73	Cắt đoạn đại tràng	50%
+74	Cắt bỏ gan phải đơn thuần	70%
+75	Cắt bỏ gan trái đơn thuần	60%
+76	Cắt phần thùy gan	40%
+77	Cắt bỏ túi mật	45%
+78	Cắt bỏ lá lách	40%
+79	Cắt bỏ đuôi tụy, lách	60%
+		
+ 	CƠ QUAN TIẾT NIỆU, SINH DỤC	 
+80	Cắt bỏ một thận, thận còn lại bình thường	45%
+81	Mất một bên tinh hoàn/buồng trứng	11%
+82	Mất cả hai bên tinh hoàn/buồng trứng 	36%
+83	Mất hoàn toàn dương vật 	41%
+84	Cắt tử cung hoàn toàn 	41%
+85	Cắt bỏ một thận, thận còn lại bị thương hoặc bệnh lý	70%
+86	Cắt một phần thận trái hoặc phải	30%
+87	Cắt một phần bàng quang	27%
+88	Mất dương vật và 2 tinh hoàn ở người	 
+ 	- Mất dương vật và 2 tinh hoàn ở người: Dưới 55 tuổi chưa có con	70%
+ 	- Mất dương vật và 2 tinh hoàn ở người: Dưới 55 tuổi đã có con	55%
+ 	- Mất dương vật và 2 tinh hoàn ở người: Trên 55 tuổi	35%
+89	Cắt bỏ dạ con và buồng trứng ở người 	 
+ 	- Cắt bỏ dạ con và buồng trứng ở người: Dưới 45 tuổi chưa có con	60%
+ 	- Cắt bỏ dạ con và buồng trứng ở người: Dưới 45 tuổi đó có con	30%
+ 	- Cắt bỏ dạ con và buồng trứng ở người: Trên 45 tuổi	25%
+90	Cắt vú ở nữ:	 
+ 	Dưới 45 tuổi: một bên	20%
+ 	Dưới 45 tuổi: hai bên	45%
+ 	Trên 45 tuổi: một bên	15%
+ 	Trên 45 tuổi: hai bên	30%
+		
+ 	MẮT	 
+91	Mất hoặc mù hoàn toàn một mắt và	 
+ 	- Không lắp được mắt giả	55%
+ 	- Lắp được mắt giả	50%
+92	Mất hoặc mù hoàn toàn một mắt nhưng trước khi xảy ra tai nạn này đã mất hoặc mù một mắt rồi	80%
+		
+ 	TAI – MŨI – HỌNG	 
+93	Điếc hai tai, hoàn toàn không phục hồi được	75%
+ 	Điếc hai tai Nặng (Nói to hoặc thét vào tai còn nghe được)	60%
+ 	Điếc hai tai Vừa (Nói to 1-2m còn nghe)	35%
+ 	Điếc hai tai Nhẹ (Nói to 2-4m còn nghe)	15%
+94	Điếc một tai, hoàn toàn không phục hồi được	30%
+ 	Điếc một tai Nặng (Nói to hoặc thét vào tai còn nghe được) 	20%
+ 	Điếc một tai Vừa (Nói to 1-2m còn nghe)	15%
+ 	Điếc một tai Nhẹ (Nói to 2-4m còn nghe)	08%
+95	Mất vành tai hai bên	20%
+96	Mất vành tai một bên	10%
+97	Mất hoàn toàn mũi	18%
+		
+ 	MẶT	 
+98	Mất toàn bộ xương hàm trên và một phần xương hàm dưới từ cành cao trở xuống:	 
+ 	- Khác bên	80%
+ 	- Cùng bên	70%
+99	Mất toàn bộ xương hàm trên hoặc dưới	70%
+100	Mất một phần xương hàm trên hoặc một phần xương hàm dưới từ 1/3 đến 1/2 bị mất từ cành cao trở xuống	35%
+101	Mất 3/4 lưỡi, còn gốc lưỡi (từ đường gai V trở ra)	75%
+102	Mất 2/3 lưỡi từ đầu lưỡi	50%
+103	Mất 1/3 lưỡi ảnh hưởng đến phát âm	15%
+104	Mất một phần nhỏ lưỡi (dưới 1/3) ảnh hưởng đến phát âm	10%
+		
+Nguyên tắc xét trả tiền bảo hiểm:
+a) Trường hợp có nhiều thương tật ở cùng một bộ phận cơ thể, tổng số tiền trả cho các thương tật không được vượt quá tỷ lệ mất bộ phận cơ thể đó.
+b) Trường hợp Người được bảo hiểm bị một thương tật vĩnh viễn mà thương tật vĩnh viễn này được liệt kê trong nhiều quyền lợi chi trả khác nhau, thì mức chi trả cho phần thương tật nằm trong hạng mục nào cao hơn (hoặc cao nhất) sẽ được áp dụng. Nếu quyền lợi bảo hiểm đã được chi trả cho việc mất toàn bộ bộ phận cơ thể, thì sẽ không còn quyền lợi chi trả cho việc mất một phần của bộ phận cơ thể đó nữa.
+c)Trường hợp hậu quả của tai nạn thuộc phạm vi bảo hiểm bị trầm trọng hơn do bệnh tật có sẵn của NĐBH hoặc điều trị thương tật thân thể không kịp thời và không theo chỉ dẫn của cơ sở y tế thì CTBH chỉ xem xét trả tiền bảo hiểm như đối với loại thương tật tương tự ở người có sức khỏe bình thường được điều trị một cách hợp lý.
+
+
